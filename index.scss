@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +33,4 @@ body {
     background-color: #c47;
   }
 }
-
-
 
