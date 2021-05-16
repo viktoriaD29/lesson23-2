@@ -9,6 +9,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  @include for-orientation {
+    flex-direction: column;
+  }
 }
 
 .square {
@@ -30,9 +34,5 @@ body {
   }
 }
 
-.container {
-  @include for-orientation {
-    flex-direction: column;
-  }
-}
+
 
