@@ -8,7 +8,7 @@ body {
   align-items: center;
   height: 100vh;
 }
-@media screen and (orientation: portrait) {
+@media screen and (orientation: landscape) {
   body {
     flex-direction: column;
   }
